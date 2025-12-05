@@ -55,6 +55,6 @@ function timeElapse(date){
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	var result = "Tiempo: <span class=\"digit\">" + days + "</span> Dias <span class=\"digit\">" + hours + "</span> Hr <span class=\"digit\">" + minutes + "</span> min <span class=\"digit\">" + seconds + "</span> Seg"; 
+	var result = "Tiempo: <span class=\"digit\">" + days + "</span> Dias <span class=\"digit\">" + hours + "</span> Hr <span class=\"digit\">" + minutes + "</span> Min <span class=\"digit\">" + seconds + "</span> Seg"; 
 	$("#clock").html(result);
 }
